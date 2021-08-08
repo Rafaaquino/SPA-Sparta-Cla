@@ -17,7 +17,7 @@
     font-weight: bold;
     font-size: 2rem;
     padding-left: 2rem;
-
+    text-transform: uppercase;
 }
 
 .text-logo img {
@@ -41,13 +41,21 @@
   align-content: center;
 }
 
-.navbar-expand-lg .navbar-collapse ul li:hover {
+.navbar-expand-lg .navbar-collapse ul li a:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  transform: skewX(-10deg);
 }
 
 .navbar-expand-lg .navbar-collapse ul li a {
-  color: var(--text-color);
+  color: #edeaea;
+  font-weight: 700;
+  padding: 0.9375rem;
+  text-transform: uppercase;
+}
+
+.navbar-expand-lg .navbar-collapse ul li a:hover {
+  color: var(--secondary-color);
 }
 
 .nav-item-btn {
@@ -56,8 +64,6 @@
 .nav-item-btn:hover {
   background-color: #e4a10100!important;
 }
-
-
 
 .navbar-light .navbar-toggler-icon {
   background-image: url(../../../../assets/images/menu.png);

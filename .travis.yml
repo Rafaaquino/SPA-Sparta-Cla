@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "10"
+
+dist: trusty
+sudo: required
+
+branches:
+  only:
+  - main
+
+addons:
+  chrome: stable
+
+before_script:
+  - npm install -g @angular/cli
+
+script:
+- ng lint
+- ng build --prod

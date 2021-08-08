@@ -1,6 +1,6 @@
 .btn-custom {
   transition: all 0.3s linear 0s;
-  color: var(--text-color);
+  color: #edeaea;
   background-color: var(--primary-color);
   border: 0.0625rem solid var(--primary-color);
   transform: skewX(-10deg);

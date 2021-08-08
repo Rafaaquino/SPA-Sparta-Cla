@@ -1,0 +1,16 @@
+.banner-content {
+  width: 100%;
+  background-image: url(../../../../assets/images/banner_alert.jpg);
+}
+
+.banner-alert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+h5, p {
+  color: var(--text-white);
+}

@@ -1,18 +1,18 @@
 <header class="header ">
   <div class="container-fluid">
     <nav class=" navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand text-logo" href="/"><img src="../../../../assets/images/spartan-cla-logo.svg" width="60" alt="Logo"> Spartan Clã</a>
+      <a class="navbar-brand text-logo" href="/"><img src="assets/images/spartan-cla-logo.svg" width="60" alt="Logo"> Sparta Clã</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <li class="nav-item show"><a href="/"> Sobre</a></li>
+            <li class="nav-item show"><a routerLink="/sobre" routerLinkActive="is-active"> Sobre</a></li>
             <li class="nav-item"><a href="/">Torneios</a></li>
-            <li class="nav-item"><a class="nav-item" href="/">Regras</a></li>
+            <li class="nav-item"><a routerLink="/regras" routerLinkActive="is-active">Regras</a></li>
             <li class="nav-item"><a class="nav-item" href="/">Comunidade</a></li>
-            <li class="nav-item"><a class="nav-item" href="/">FAQ</a></li>
+            <li class="nav-item"><a class="nav-item" routerLink="/faq" routerLinkActive="active">FAQ</a></li>
             <li class="nav-item nav-item-btn"><app-buttom title="Login"></app-buttom></li>
         </ul>
       </div>

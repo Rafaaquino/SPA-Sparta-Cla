@@ -1,0 +1,31 @@
+ul {
+  list-style: numeric;
+  padding-left: 0.9375rem;
+}
+
+li {
+  padding: 1rem;
+  padding-left: 0;
+  line-height: 1.75rem;
+}
+
+.score-rules {
+  list-style: none;
+  padding-left:  0;
+}
+
+.score-rules li {
+  font-size: 0.9375rem;
+  display: block;
+  padding-bottom: 1.125rem;
+  border-bottom: 1px solid #e6e5e4;
+  margin-bottom: 1rem;
+}
+
+.score-rules li span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #413f3f;
+  margin-right: 2.5rem;
+  text-transform: uppercase;
+}
